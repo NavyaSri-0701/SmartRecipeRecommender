@@ -4,6 +4,10 @@
 **Smart Recipe Recommender** is a personalized cooking assistant that suggests recipes based on your **mood**, **health goals**, and **available ingredients**. Whether you're feeling festive, tired, or looking for a high-protein meal, this smart app finds just the right dish for you!
 
 ---
+## 🌐 Live Demo
+
+👉 [Visit the Deployed App](https://smartreciperecommender.onrender.com/)
+---
 
 ## 🌟 Key Features
 
@@ -54,20 +58,8 @@
 
 ---
 
-## 🌐 Deployment
 
-The app is ready to be deployed on platforms like:
-
-* [Render](https://render.com/)
-* [Replit](https://replit.com/)
-* [Heroku](https://www.heroku.com/)
-* [Vercel (via Flask adapters)](https://vercel.com/)
-
-> Be sure to include your dataset file (`enriched_13k_recipes.csv`) and all templates/static files in your deployment.
-
----
-
-## 📁 Project Structure
+**## 📁 Project Structure**
 
 ```
 SmartRecipeRecommender/
@@ -83,25 +75,27 @@ SmartRecipeRecommender/
 ```
 
 ---
-
 ## 📘 Dataset
-This project uses the 13k-recipes.csv dataset published by @josephrmartinez, containing over 13,000 diverse recipes.
 
-✨ Enhancements Added:
+This project uses the [`13k-recipes.csv`](https://github.com/josephrmartinez/recipe-dataset/blob/main/13k-recipes.csv) dataset by [@josephrmartinez](https://github.com/josephrmartinez), containing over 13,000 diverse recipes.
 
-Cleaned and tokenized ingredients
+### ✨ Enhancements Added:
 
-Annotated recipes with Mood Tags: Tired, Happy, Comforting, Festive, Adventurous
+- Cleaned and tokenized ingredients  
+- Annotated recipes with Mood Tags: *Tired*, *Happy*, *Comforting*, *Festive*, *Adventurous*  
+- Tagged recipes with Health Goals: *Weight Loss*, *High Protein*, *Balanced Diet*, *Quick Meal*, *Vegan*  
 
-Tagged recipes with Health Goals: Weight Loss, High Protein, Balanced Diet, Quick Meal, Vegan
+> 📜 **Dataset License**:  
+> This dataset is used under the [MIT License](https://github.com/josephrmartinez/recipe-dataset/blob/main/LICENSE) as specified by the original repository.  
+> Credit goes to the original author [@josephrmartinez](https://github.com/josephrmartinez).
 
-This enriched dataset powers the intelligent filtering and recommendation features in the app.
+---
 
+## 📄 Project License
 
-## 📄 License
+This Smart Recipe Recommender project (codebase, UI, enhancements) is licensed under the **MIT License**.  
+You are free to use, modify, and share it with attribution.
 
-This project is licensed under the **MIT License**.
-Feel free to use, share, and improve it!
 
 
 
